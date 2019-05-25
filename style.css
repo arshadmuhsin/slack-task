@@ -1,0 +1,41 @@
+#total{
+    width: 100%;
+    display: flex;
+}
+#left{
+    width: 20%;
+    background-color:  #3f0e40;
+    border: 2px solid black;
+}
+#mid{
+    width: 80%;
+    border: 2px solid black;
+}
+aside{
+    background-color: #3f0e40;
+}
+aside a{
+    color: white;
+}
+aside i{
+    color: white;
+}
+aside li{
+    list-style: none;
+}
+aside a{
+    text-decoration: none;
+}
+header{
+    position: sticky;
+}
+#footer{
+    position: sticky;
+    color: rgba(0, 0,0, 0.5);
+    border: 1px solid gray;
+    display: flex;
+    /* justify-content:space-evenly; */
+}
+#footer input{
+    border: none;
+}
