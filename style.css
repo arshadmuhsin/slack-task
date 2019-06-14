@@ -11,16 +11,21 @@
     width: 80%;
     border: 2px solid black;
 }
-aside{
-    background-color: #3f0e40;
+.icon i{
+color: green;
 }
-aside a{
+.reply {
+    display: flex;
+    flex-direction: row;
+}
+
+ #left a{
     color: white;
 }
-aside i{
+#left i{
     color: white;
 }
-aside li{
+#left li{
     list-style: none;
 }
 aside a{
@@ -34,8 +39,12 @@ header{
     color: rgba(0, 0,0, 0.5);
     border: 1px solid gray;
     display: flex;
-    /* justify-content:space-evenly; */
+    justify-content:space-evenly;
 }
 #footer input{
     border: none;
+    margin-left: 50px;
+}
+a {
+    text-decoration: none;
 }
